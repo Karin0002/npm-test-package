@@ -1,20 +1,21 @@
 {
-  "name": "1dv610-l1",
+  "name": "npm-test-package",
   "version": "1.0.0",
-  "description": "1dv610-L1-start-programming-again",
+  "description": "Just a test package",
   "type": "module",
-  "main": "src/js/app.js",
-  "scripts": {
-    "start": "node src/js/app.js",
-    "lint": "npx eslint ./src || exit 0",
-    "lint:fix": "npx eslint ./src --fix || exit 0"
+  "main": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "keywords": ["test"],
+  "author": "karin_silfver",
+  "homepage": "https://google.com",
+  "repository": {
+    "url": "https://github.com/Karin0002/npm-test-package"
   },
-  "contributors": [
-    "Karin Silfversparre <ks224ac@student.lnu.se>"
-  ],
+  "scripts": {
+    "build": "tsc"
+  },
   "license": "MIT",
-  "private": true,
   "devDependencies": {
-    "@lnu/eslint-config": "^1.1.10"
+    "typescript": "^5.6.2"
   }
 }
