@@ -19,8 +19,5 @@
   "license": "MIT",
   "devDependencies": {
     "typescript": "^5.6.2"
-  },
-  "dependencies": {
-    "ett-test-av-npm": "file:ett-test-av-npm-1.0.0.tgz"
   }
 }
