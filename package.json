@@ -1,6 +1,6 @@
 {
   "name": "ett-test-av-npm",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Just a test package",
   "type": "module",
   "main": "./dist/index.js",
