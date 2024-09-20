@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "description": "Just a test package",
   "type": "module",
-  "main": "./dist/index.mjs",
+  "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "keywords": ["test"],
+  "keywords": [
+    "test"
+  ],
   "author": "karin_silfver",
   "homepage": "https://google.com",
   "repository": {
@@ -17,5 +19,8 @@
   "license": "MIT",
   "devDependencies": {
     "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "ett-test-av-npm": "file:ett-test-av-npm-1.0.0.tgz"
   }
 }
