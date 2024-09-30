@@ -11,7 +11,7 @@
   "author": "karin_silfver",
   "homepage": "https://google.com",
   "repository": {
-    "url": "https://github.com/Karin0002/npm-test-package"
+    "url": "git+https://github.com/Karin0002/npm-test-package.git"
   },
   "scripts": {
     "build": "tsc"
